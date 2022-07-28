@@ -1,0 +1,96 @@
+.header-wrapper button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5a1a01;
+    width: 15rem;
+    padding: 6px 8px;
+    border-radius: 20px;
+    margin-right: 4rem;
+    border: 0px;
+    color: white;
+}
+
+.header-wrapper button div {
+    background-color: #8a2b06;
+    margin-left: 1em;
+    font-size: larger;
+    text-align:end;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.card-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height:50%;
+    overflow: scroll;
+  }
+
+  #card-li {
+    color: black;
+    float:none;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: left;
+    padding: 2px;
+    display: block;
+    font-weight:300;
+    font-size: larger;
+    border: 1px black;
+
+  }
+
+  #card-li p {
+    float: right;
+  }
+  
+  .total {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .actions {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  }
+  
+  .actions button {
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #8a2b06;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+  }
+  
+  .actions button:hover,
+  .actions button:active {
+    background-color: #5a1a01;
+    border-color: #5a1a01;
+    color: white;
+  }
+  
+  .actions .button--alt {
+    color: #8a2b06;
+  }
+  
+  .actions .button {
+    background-color: #8a2b06;
+    color: white;
+  }
+
+  .shopping-card {
+      background-color: #ffff;
+      padding: 2em;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 8px;
+  }

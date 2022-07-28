@@ -1,0 +1,13 @@
+.meals-banner {
+    text-align: center;
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.359);
+    width:50%;
+    color: white;
+    line-height: 2em;
+    box-shadow: 1px 3px 18px 3px rgba(0,0,0,0.74);
+}

@@ -1,0 +1,47 @@
+form {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-flow:column;
+    float: right;
+    width: max-content;
+    margin-top: -3.5em;
+}
+
+form #amount {
+    max-width: 20%;
+    margin-right: 8px;
+    border: 0.9px solid grey;
+    text-align: right;
+}
+
+form p {
+    position: relative;
+    top: 20px;
+    right: 4em;
+    color: rgb(252, 183, 55);
+    text-decoration-line: underline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+form button {
+    margin-top: 10px;
+    max-width: 100%;
+    padding: 7px 30px;
+    max-width: 70%;
+    transition: all .3s;
+    background-color: #5a1a01;
+    border-radius: 18px;
+    color: white;
+}
+
+form button:hover {
+    background-color: red;
+}
+
+label {
+    font-weight: bold;
+    position: relative;
+    left: -3.5em;
+    top: 1.2em;
+}

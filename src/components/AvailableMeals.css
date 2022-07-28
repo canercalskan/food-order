@@ -1,0 +1,30 @@
+ol {
+    list-style-type: none;
+}
+
+.availableListItem{
+  padding: 10px 20px;
+  overflow: hidden;
+  line-height: 1.5rem;
+  margin: 2px;
+}
+
+#availableList {
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+    width: 50vw;
+    margin: auto;
+    margin-top: 2em;
+}
+hr {
+    opacity: 0.3;
+    margin-top: 1.5em;
+}
+
+.meal-price {
+    color: #a75414;
+}

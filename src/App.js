@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import "./App.css";
+import Meals from "./components/Meals";
+import AvailableMeals from "./components/AvailableMeals";
+import Card from "./components/Card";
+import CardProvider from "./store/CardProvider";
 
 function App() {
+  
+  const showCardHandler = () => {
+    document.getElementById("overlays").style.display = "block";
+  };
+  const hideCardHandler = () => {
+    document.getElementById("overlays").style.display = "none";
+  };
+  const onOrder = () => {
+    console.log('Ordering...');
+  }
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CardProvider>
+      <Header onShowCard={showCardHandler} />
+      <Meals />
+      <Card  onHideCard={hideCardHandler} onOrder = {onOrder}/>
+      <AvailableMeals />
+    </CardProvider>
   );
 }
 
